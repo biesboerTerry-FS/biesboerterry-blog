@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Header } from './components/Header';
 import { PostList } from './components/PostList';
 import { PostView } from './components/PostView';
+import './index.css'
 
 export default function App() {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -9,7 +10,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
       <Header />
-      
+      w
       <main className="max-w-3xl mx-auto">
         {selectedPost ? (
           <PostView post={selectedPost} onBack={() => setSelectedPost(null)} />
