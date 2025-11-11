@@ -21,7 +21,7 @@ export function PostView({ post, onBack }) {
 					<div className="mt-4 mb-4 overflow-hidden rounded-lg max-h-64">
 						<img
 							src={post.imageUrl}
-							alt={post.imageAlt || post.title}
+							// alt={post.imageAlt || post.title}
 							className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity"
 						/>
 					</div>
