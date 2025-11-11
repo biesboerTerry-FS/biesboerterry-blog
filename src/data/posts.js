@@ -146,6 +146,6 @@ The solution isn't to get upset about it—it's to:
 - Test in production early and often
 
 `,
-		imageUrl: "../images/crudApiDemoImage.png",
+		imageUrl: "/crudApiDemoImage.png",
 	},
 ];
