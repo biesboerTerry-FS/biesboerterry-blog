@@ -11,7 +11,7 @@ export function PostCard({ post, onClick }) {
 					<h2 className="text-xl font-medium text-gray-900 group-hover:text-gray-700 transition-colors">
 						{post.title}
 					</h2>
-					{post.imageUrl && (
+					{/* {post.imageUrl && (
 						<div className="mt-4 mb-4 overflow-hidden rounded-lg max-h-64">
 							<img
 								src={post.imageUrl}
@@ -19,7 +19,7 @@ export function PostCard({ post, onClick }) {
 								className="w-full h-auto object-cover group-hover:opacity-90 transition-opacity"
 							/>
 						</div>
-					)}
+					)} */}
 					<p className="text-sm text-gray-400 mt-1">{post.date}</p>
 					<p className="text-gray-600 mt-3 leading-relaxed">
 						{post.excerpt}
